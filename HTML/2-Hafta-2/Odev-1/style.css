@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-size: 40px;
+    color: red;
+}
+
+h2 {
+    color: rgba(128, 0, 128, 0.767);
+}
+
+h3{
+    color: rgb(214, 160, 12);
+}
+.list {
+    list-style: none ;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}

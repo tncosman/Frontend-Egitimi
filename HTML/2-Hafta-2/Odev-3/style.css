@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/********************* Nav-START *************************/
+
+nav ul {
+    list-style-type: none;
+    gap: 15px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 10px;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: #5f6368;
+}
+
+nav ul a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+
+/********************* Nav-END *************************/
+
+
+/********************* Section-START *************************/
+
+.container{
+    width: 500px;
+    margin: auto;
+}
+
+.btn {
+    height: 36px;
+    font-size: 14px;
+    color: #5f6368;
+    border-color: #f2f2f2;
+    margin-top: 5px;
+}
+
+.s-btn {
+    height: 36px;
+    width: 330px;
+    font-size: 14px;
+    color: #5f6368;
+    border-color: #f2f2f2;
+    margin-right: 50px;
+}
+
+.g-lens {
+    height: 25px;
+}
+
+.s-logo {
+    height: 20px;
+}
+
+.s-box {
+    border: 1px;
+    border-style: solid;
+    border-radius: 10px; 
+    padding: 10px;
+    width: 480px; 
+    height: 30px; 
+    display: flex;
+    justify-content: center;
+}
+
+.g-img {
+    margin-top: 200px;
+    margin-left: 100px;
+    
+}
+
+/********************* Section-END *************************/
+
+
+
+/********************* Footer-START *************************/
+
+footer {
+    width: 99%;
+    position: absolute;
+    bottom: 10px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul{
+    list-style-type: none;
+    float: left;
+    display: flex;
+    gap: 15px;
+}
+
+footer ul a{
+    text-decoration: none;
+    color: #5f6368;
+}
+
+footer ul a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+
+
+
+
+/********************* Footer-END *************************/

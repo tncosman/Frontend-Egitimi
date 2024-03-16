@@ -1,0 +1,369 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makaron | Esin Bakery</title>
+    <!-- iconlar -->
+        <link rel="shortcut icon" href="https://r.resimlink.com/XrvauCtyUT7.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <!-- iconlar -->
+    <link rel="stylesheet" href="../style.css">
+    <style>
+
+/* -------Media-Start-------- */
+
+        @media (max-width: 800px) {
+            .recipe {
+                max-width: 700px;
+
+            }
+
+            img {
+                max-width: 600px;
+            }
+        }
+
+        @media (max-width: 700px) {
+            .recipe {
+                max-width: 650px;
+
+            }
+
+            img {
+                max-width: 550px;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .recipe {
+                max-width: 550px;
+
+            }
+
+            img {
+                max-width: 450px;
+            }
+        }
+
+        @media (max-width: 500px) {
+            .recipe {
+                max-width: 450px;
+
+            }
+
+            img {
+                max-width: 350px;
+            }
+        }
+
+        @media (min-width:800px) {
+            .img-text {
+                margin: 0 135px;
+                text-align: justify;
+            }
+        }
+/* -------Media-END-------- */
+
+
+        .img-text {
+            font-size: 1.1em;
+        }
+
+        .recipe {
+            display: inline-block;
+            text-align: center;
+            list-style-position: inside;
+        }
+
+        .r-img, img {
+            width: 700px;
+            display: inline;
+            border-radius: 13px;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+
+
+        .ar-ul{
+            list-style: none; 
+            display: flex; 
+            gap: 15px; 
+            justify-content: center; 
+            margin-bottom: 45px;
+        }
+
+        .arrow {
+            border-radius: 2px; 
+            padding: 6px 14px; 
+            background-color: #F7D3BD;
+        }
+
+        .arrow:hover {
+            background-color: red;
+            color: #F7D3BD;
+            transition: background-color .5s ease-in-out;
+        }
+
+        .mlz {
+            text-align: left; 
+            font-size: larger;
+        }
+
+        .mlz ul li {
+            margin-bottom: 10px;
+            font-weight: 400;
+        }
+
+        .mlz ul li::marker {
+            color: #F7D3BD;
+            font-size: 1.5em;
+        }
+
+        .mlz ol li {
+            margin-bottom: 10px;
+            font-weight: 400;
+        }
+
+        .mlz ol li::marker {
+            color: #F7D3BD;
+            font-size: 1.5em;
+        }
+
+    </style>
+
+
+
+
+</head>
+
+<body class="container" id="yukari">
+<!-- iconlar-arama butonu-start -->
+<header>
+    <div class="nav-1">
+        <div style="font-family: monospace;">
+            <p>
+                <a href="#"><i class="fa-solid fa-magnifying-glass h-icon"></i></a>
+                YENİ REÇETELERİ KEŞFET
+            </p>
+        </div>
+        <div>
+            <ul style="list-style: none; display: flex; gap: 10px; ">
+                <a href="#"><li><i class="fa-brands fa-facebook h-icon"></i></li></a>
+                <a href="#"><li><i class="fa-brands fa-instagram h-icon"></i></li></a>
+                <a href="#"><li><i class="fa-brands fa-pinterest h-icon"></i></li></a>
+                <a href="#"><li><i class="fa-brands fa-twitter h-icon"></i></li></a>
+                <a href="#"><li><i class="fa-brands fa-youtube h-icon"></i></li></a>
+            </ul>
+        </div>
+    </div>
+</header>
+<!-- iconlar-arama butonu-end -->
+
+<!-- logo-sekmeler-start -->
+<nav>
+    <div  class="telefon">
+        <ul>
+            <li><a href="https://www.lezzet.com.tr/tarif/tatli-tarifleri" target="_blank">Tüm Reçeteler</a></li>
+            <li><a href="https://www.lezzet.com.tr/arama?searchKeyword=vegan" target="_blank">Vegan</a></li>
+            <li><a href="https://www.lezzet.com.tr/tarif/glutensiz-tarifler" target="_blank">Glutensiz</a></li>
+        </ul>
+    </div>
+
+    <a href="../index.html"><img class="h-img" src="../assets/logo.png" alt=""></a>
+
+    <div class="telefon">
+        <ul>
+            <li><a href="https://www.amazon.com.tr/b?ie=UTF8&node=13511279031" target="_blank">Market</a></li>
+            <li><a href="https://www.pakmayaprofesyonellerdunyasi.com/blog/dunyanin-en-iyi-firincilarindan-ilham-veren-meslek-sirlari" target="_blank">Öneriler</a></li>
+            <li><a href="contact.html">İletişim</a></li>
+        </ul>
+    </div>
+
+</nav>
+<hr class="hr-1">
+<!-- logo-sekmeler-end -->
+
+
+<!-- section-start -->
+<section>
+    <article class="sec-1">
+        <div class="bx-0">
+            <p>"En güzel lezzetler <br>basit
+                reçetelerde gizlidir."</p>
+        </div>
+        <div class="bx-1" style="font-family: fantasy; font-size: 2em;">Makaron
+
+        </div>
+        <div class="bx-2">
+            <p><a href="../index.html"><i class="fa-solid fa-house"></i></a> <a href="strudel.html" target="_self"><i class="fa-solid fa-arrow-right-long h-icon"></a></i></p>
+        </div>
+        
+    </article>
+
+    <article class="recipe">
+        <div class="r-img">
+            <img src="../assets/images/makaron.JPG" alt="Makaron">
+        </div>
+        <div>
+            <p class="img-text">
+                Renkli bisküvilerle hazırlanan makaron, Fransız tatlısı olarak bilinse de, İtalyan mutfağına özgü bir lezzettir. Ana malzemesi badem unu olan bu tatlı, ilk olarak Venedik de yapılmıştır. Zaman içerisinde yaygınlaşan makaronlar, genellikle hazır paketlerde satılır. Karbonhidrat değeri yüksek olsa da, kreması için meyve püreleri kullanılır. Diyabet hastalarının ölçülü bir şekilde tüketmesi önerilir. Peki, nefis mi nefis bir atıştırmalık olan makaron nasıl yapılır? Farklı renklerle ve meyvelerle süsleyebileceğiniz ev yapımı makaron tarifine yazımızın devamından ulaşabilirsiniz.
+            </p>
+        </div>
+        <div>
+            <ul>
+                <li><i style="padding: 0 6px 10px 0;" class="fa-solid fa-book-open"></i> Hazırlanma Süresi: <b>15 dakika</b></li>
+                <li><i style="padding: 0 6px 10px 0;" class="fa-solid fa-fire-burner"></i> Pişirme Süresi: <b>10 dakika</b></li>
+                <li><i style="padding: 0 6px 10px 0;" class="fa-solid fa-people-group"></i> Kaç Kişilik: <b>6 kişilik</b></li>
+            </ul>
+        </div>
+        <div>
+            <ul class="ar-ul">
+                <a href="#tarif"><li class="arrow"><i class="fa-solid fa-arrow-turn-down"></i> Malzemelere Geç</li></a>
+                <a href="#nasil"><li class="arrow"><i class="fa-solid fa-arrow-turn-down"></i> Yapılış Adımlarına Geç</li></a>
+            </ul>
+        </div>
+
+
+    <article>
+        <div class="mlz">
+            <h5 id="tarif">
+                Makaron için
+            </h5>
+            <h2>
+                Malzemeler
+            </h2>
+            <ul>
+                <li><b>Hamuru için;</b>
+                </li>
+                <li>100 gr ince çekilmiş şeker
+                </li>
+                <li>50 gr ince çekilmiş badem
+                </li>
+                <li>2 yumurtanın akı
+                </li>
+                <li>4 çorba kaşığı şeker
+                </li>
+                <li><b>Çikolatalı krema için;</b>
+                </li>
+                <li>Esmer şeker
+                </li>
+                <li>1 paket bitter çikolata (80 gr)
+                </li>
+                <li>1 çay bardağı krema
+                </li>
+                <li>30 gr tereyağı
+                </li>
+                <li><b>Fıstıklı krema için;</b>
+                </li>
+                <li>40 gr tuzsuz antep fıstığı
+                </li>
+                <li>1 su bardağı şeker
+                </li>
+                <li>100 gr tereyağı
+                </li>
+                <li>1 paket vanilya
+                </li>
+                <li><b>Portakallı krema için;</b>
+                </li>
+                <li>100 gr tereyağı
+                </li>
+                <li>1 kahve fincanı portakal suyu
+                </li>
+                <li>2 çay bardağı Şeker
+                </li>
+                <li>3 yumurtanın sarısı
+                </li>
+                <li>2 yumurta
+                </li>
+                <li>1 portakal
+                </li>
+                <li>2 çorba kaşığı nişasta
+                </li>
+            </ul>
+        
+            <br>
+
+            <h5 id="nasil">
+                Makaron
+            </h5>
+            <h2>
+                Nasıl Yapılır
+            </h2>
+            <ol>
+                <li>İlk olarak ince çekilmiş şekeri ve file bademi mutfak robotuna alıp ince un kıvamına getirin (arada bir mutfak robotunu durdurup elinizde harmanlayın).
+                </li>
+                <li>Yumurta aklarını mikserin orta hızında köpük köpük oluncaya kadar beş dakika çırpın. Mikserin devrini artırıp 4 çorba kaşığı şekeri toplam iki dakikada azar azar ekleyin.
+                </li>
+                <li>Bademli karışımı elekten geçirin. Bademleri yumurta akıyla hazırladığınız karışıma ilave edin. Tahta bir kaşıkla çok fazla müdahale etmeden karıştırın.
+                </li>
+                <li>Kalan bademli karışımı ekleyip pürüzsüz ve tek bir renk hamur oluncaya kadar tekrar karıştırın.
+                </li>
+                <li>Hamuru sıkma torbasına aktarın. Yaklaşık 2 cm çapında dairesel hareketlerle yağlı kağıt serili fırın tepsisine aralıklı sıkın. Birinci tepsiyi 170 dereceye ayarlı fırında; fırının orta rafında 10 dakika pişirin.
+                </li>
+                <li>Fırından çıkarıp ikinci tepsideki makaronları da aynı şekilde pişirin. Pişen makaronları soğuması için bir kenarda bekletin.
+                </li>
+                <li>Soğuyan makaronları tepsiden çıkartıp orta kısımlarına istediğiniz sosu sürün. Ardından tost şeklinde kapatın.
+                </li>
+                <li>Bardak ölçülü makaronları, şeftalili dondurma ile birlikte servis edebilirsiniz. Şimdiden afiyet olsun.
+                </li>
+            </ol>
+            <h5>
+                Renkli makaron kreması
+            </h5>
+            <h2>
+                Nasıl yapılır?
+            </h2>
+            <ol>
+                <li><b>Çikolatalı krema için;</b> Bıçakla ince ince kıyılmış bitter çikolata ve tereyağını benmari usulü eritin. Üzerine kremayı ekleyip karıştırın ve soğumaya bırakın. 
+                </li>
+                <li><b>Fıstıklı krema için;</b> Antep fıstığı ile ince çekilmiş şekeri mutfak robotunda un haline getirin. Üzerine vanilyayı ve tereyağını ilave edip tahta bir kaşıkla krem haline gelinceye kadar karıştırın. Karışımı buzdolabına alıp yarım saat kadar bekletin. 
+                </li>
+                <li><b>Portakallı krema için; </b> Portakalın kabuğunu rendeleyin. Tüm malzemeyi sos tenceresine alıp kısık ateşte muhallebi kıvamına gelinceye kadar pişirin. Ocaktan alıp soğumaya bırakın.
+                </li>
+                <li>Hazırladığınız makaronları ev yapımı çikolata sosu ile tatlandırabilirsiniz.
+                </li>
+            </ol>
+
+
+
+            <br>
+            <br>
+
+
+
+
+        </div>
+    </article>
+
+
+
+    </article>
+    
+            
+            
+
+
+
+
+        
+
+</section>
+
+<!-- section-END -->
+
+<!-- footer-START -->
+
+<footer>
+    <p style="display: flex; justify-content: center; padding-top: 15px;">
+        © 2024 Esin Bakery. Tüm hakları saklıdır. Yukarı çıkmak için &nbsp<a href="#yukari">tıklayınız.</a>
+    </p>
+</footer>
+
+
+
+
+
+</body>
+</html>

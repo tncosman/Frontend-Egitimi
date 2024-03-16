@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim | Esin Bakery</title>
+    <!-- iconlar -->
+    <link rel="shortcut icon" href="https://r.resimlink.com/XrvauCtyUT7.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <!-- iconlar -->
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 16px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+    </style>
+    
+
+
+</head>
+<body class="container">
+    <!-- iconlar-arama butonu-start -->
+    <header>
+        <div class="nav-1">
+            <div style="font-family: monospace;">
+                <p>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass h-icon"></i></a>
+                    YENİ REÇETELERİ KEŞFET
+                </p>
+            </div>
+            <div>
+                <ul style="list-style: none; display: flex; gap: 10px; ">
+                    <a href="#"><li><i class="fa-brands fa-facebook h-icon"></i></li></a>
+                    <a href="#"><li><i class="fa-brands fa-instagram h-icon"></i></li></a>
+                    <a href="#"><li><i class="fa-brands fa-pinterest h-icon"></i></li></a>
+                    <a href="#"><li><i class="fa-brands fa-twitter h-icon"></i></li></a>
+                    <a href="#"><li><i class="fa-brands fa-youtube h-icon"></i></li></a>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- iconlar-arama butonu-end -->
+    
+    <!-- logo-sekmeler-start -->
+    <nav>
+        <div  class="telefon">
+            <ul>
+                <li><a href="https://www.lezzet.com.tr/tarif/tatli-tarifleri" target="_blank">Tüm Reçeteler</a></li>
+                <li><a href="https://www.lezzet.com.tr/arama?searchKeyword=vegan" target="_blank">Vegan</a></li>
+                <li><a href="https://www.lezzet.com.tr/tarif/glutensiz-tarifler" target="_blank">Glutensiz</a></li>
+            </ul>
+        </div>
+    
+        <a href="index.html"><img class="h-img" src="assets/logo.png" alt=""></a>
+    
+        <div class="telefon">
+            <ul>
+                <li><a href="https://www.amazon.com.tr/b?ie=UTF8&node=13511279031" target="_blank">Market</a></li>
+                <li><a href="https://www.pakmayaprofesyonellerdunyasi.com/blog/dunyanin-en-iyi-firincilarindan-ilham-veren-meslek-sirlari" target="_blank">Öneriler</a></li>
+                <li><a href="contact.html">İletişim</a></li>
+            </ul>
+        </div>
+    
+    </nav>
+    <hr class="hr-1">
+    <!-- logo-sekmeler-end -->
+    
+    <section>
+        <article>
+            <div class="container" style="width: 800px; margin-top: 30px;">
+                <form class="contact" action="contact.html">
+              
+                  <label for="fname">Adınız</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Adınızı girin..">
+              
+                  <label for="lname">Soyadınız</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Soyadınızı girin..">
+              
+                  <label for="country">Ülke</label>
+                  <select id="country" name="country">
+                    <option value="turkiye">Türkiye</option>
+                    <option value="kanada">Kanada</option>
+                    <option value="amerika">Amerika</option>
+                    <option value="afganistan">Afganistan</option>
+                    <option value="kuzey-irak">Kuzey Irak</option>
+                  </select>
+              
+                  <label for="subject">Mesajınız</label>
+                  <textarea id="subject" name="subject" placeholder="Mesajınızı yazın.." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Gönder">
+              
+                </form>
+              </div>
+        </article>
+
+        <article>
+           <div style="padding-right: 25px; margin-top: 70px; margin-bottom: 70px;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1719472.899584109!2d-19.716146759383747!3d65.11082317757632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1str!2str!4v1710508501353!5m2!1str!2str" width="550" height="450" style="border:1 solid; display: flex; margin: auto; margin-top: 45px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           </div>
+            
+        </article>
+
+    </section>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+    <footer>
+        <p style="display: flex; justify-content: center; padding-top: 15px;">
+            © 2024 Esin Bakery. Tüm hakları saklıdır.
+        </p>
+    </footer>
+</html>

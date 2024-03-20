@@ -70,6 +70,10 @@ section {
     gap: 15px;
 }
 
+.btn:hover{
+    box-shadow: -1px 4px 5px 0px rgba(0, 0, 0, 0.24);
+}
+
 .btn a{
     display: flex;
 }
